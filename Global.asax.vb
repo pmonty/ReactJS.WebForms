@@ -5,8 +5,8 @@ Public Class Global_asax
 
     Sub Application_Start(sender As Object, e As EventArgs)
         ' Fires when the application is started
-        ReactConfig.Configure()
         RouteConfig.RegisterRoutes(RouteTable.Routes)
         BundleConfig.RegisterBundles(BundleTable.Bundles)
+        ReactConfig.Configure()
     End Sub
 End Class

@@ -7,13 +7,12 @@ Imports JavaScriptEngineSwitcher.V8
 Public Module ReactConfig
     Sub Configure()
 
-        JsEngineSwitcher.Current.DefaultEngineName = V8JsEngine.EngineName
-        JsEngineSwitcher.Current.EngineFactories.AddV8()
+
         '// If you want to use server-side rendering of React components, 
         '// add all the necessary JavaScript files here. This includes 
         '// your components as well as all of their dependencies.
         '// See http://reactjs.net/ for more information. Example
-        ReactSiteConfiguration.Configuration = New ReactSiteConfiguration().AddScript("~/Scripts/React/index.jsx")
+        ReactSiteConfiguration.Configuration.AddScript("~/Scripts/React/index.jsx")
         '//	.AddScript("~/Scripts/First.jsx")
         '//	.AddScript("~/Scripts/Second.jsx");
 
@@ -24,6 +23,9 @@ Public Module ReactConfig
         '//ReactSiteConfiguration.Configuration
         '//	.SetLoadBabel(false)
         '//	.AddScriptWithoutTransform("~/Scripts/bundle.server.js")
+
+        JsEngineSwitcher.Current.DefaultEngineName = V8JsEngine.EngineName
+        JsEngineSwitcher.Current.EngineFactories.AddV8()
     End Sub
 
 End Module

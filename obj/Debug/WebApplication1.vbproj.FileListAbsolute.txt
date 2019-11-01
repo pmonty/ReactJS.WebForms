@@ -45,7 +45,6 @@ C:\Code\WebApplication1\bin\Newtonsoft.Json.xml
 C:\Code\WebApplication1\bin\Antlr3.Runtime.pdb
 C:\Code\WebApplication1\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Code\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Code\WebApplication1\obj\Debug\WebApplication1.vbprojAssemblyReference.cache
 C:\Code\WebApplication1\obj\Debug\WebApplication1.Resources.resources
 C:\Code\WebApplication1\obj\Debug\WebApplication1.vbproj.GenerateResource.cache
 C:\Code\WebApplication1\obj\Debug\WebApplication1.vbproj.CopyComplete
@@ -89,3 +88,10 @@ C:\Code\WebApplication1\bin\x64\ClearScriptV8-64.dll
 C:\Code\WebApplication1\bin\x64\v8-libcpp-x64.dll
 C:\Code\WebApplication1\bin\x64\v8-base-x64.dll
 C:\Code\WebApplication1\bin\x64\v8-x64.dll
+C:\Code\WebApplication1\bin\System.Web.Optimization.React.dll
+C:\Code\WebApplication1\bin\System.Web.Optimization.React.pdb
+C:\Code\WebApplication1\bin\System.Web.Optimization.React.xml
+C:\Code\WebApplication1\bin\x86\ClearScriptV8-32.dll
+C:\Code\WebApplication1\bin\x86\v8-libcpp-ia32.dll
+C:\Code\WebApplication1\bin\x86\v8-base-ia32.dll
+C:\Code\WebApplication1\bin\x86\v8-ia32.dll
